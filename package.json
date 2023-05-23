@@ -1,0 +1,24 @@
+{
+  "name": "monogodb",
+  "version": "1.0.0",
+  "description": "test api",
+  "main": " server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "deploy": "netlify deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^15.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
